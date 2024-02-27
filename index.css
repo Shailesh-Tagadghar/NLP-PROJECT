@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+label {
+    color: rgb(103, 86, 86);
+    font-size: 30px;
+}
+
+#button {
+    height: 40px;
+    width: 180px;
+    background-color: lightskyblue;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;   
+    border-style: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: bisque;
+}
+
+#target-language {
+    height: 40px;
+    width: 190px;
+}
+
+select {
+    font-size: 20px;
+    text-align: center;
+    /* background-color: lightskyblue; */
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+#text-to-translate {
+    font-size: 20px;
+    width: 600px;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid black;
+    border-style: hidden;
+}
+
+#translated-text {
+    color: black;
+    border: 1px solid black;
+    border-style: hidden;
+    font-size: 20px;
+    width: 600px;
+    height: 200px;
+    overflow: auto;
+    background-color: white;
+}
+
+#content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+#form-wrapper {
+    flex: 1;
+}
+
+#translated-text-wrapper {
+    flex: 1;
+    border-left: 2px solid red;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.refresh-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
