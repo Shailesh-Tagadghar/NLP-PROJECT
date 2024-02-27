@@ -1,3 +1,5 @@
+#pip install Flask SpeechRecognition googletrans==4.0.0-rc1
+
 from flask import Flask, request, jsonify
 from googletrans import Translator
 
